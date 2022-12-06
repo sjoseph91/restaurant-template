@@ -31,7 +31,9 @@ body {
   height: 100vh;
 }
 /*About */
-
+.about {
+  background-color: #fffaf3;
+}
 .about-pic {
   background-image: url("./assets/images/about-img.avif");
   background-position: center center;
@@ -40,4 +42,10 @@ body {
   height: auto;
   position: relative;
   min-height: 400px;
+}
+.about ul {
+  list-style: none;
+}
+.about ul li {
+  margin-bottom: 5px;
 }
