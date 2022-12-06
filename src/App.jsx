@@ -1,12 +1,12 @@
 import "./App.css";
 import Hero from "./assets/components/Hero";
-import Navbar from "./assets/components/Navbar";
-import Header from "./assets/components/Header";
+import About from "./assets/components/About";
 
 function App() {
   return (
     <div className="App position-relative">
       <Hero />
+      <About />
     </div>
   );
 }

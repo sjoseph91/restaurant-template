@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-transparent  mt-4">
+    <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-transparent  mt-5">
       <div className="container-md">
         <a className="navbar-brand" href="#home">
           Navbar
         </a>
 
         <div className="button-container ms-auto me-4 me-md-0 order-md-3">
-          <button className="btn btn-primary py-2 px-1" type="button">
+          <button className="btn btn-primary rounded-pill" type="button ">
             Reserve a table
           </button>
         </div>
