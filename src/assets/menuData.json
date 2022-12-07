@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Lobster Bisque",
+    "description": "Fresh lobster mixed with fresh vegetables and a creamy broth",
+    "category": "starter",
+    "price": 8.95
+  },
+  {
+    "name": "Chicken Wings",
+    "description": "Flame-grilled wings smothered with your choice of buffalo or hot sauce",
+    "category": "starter",
+    "price": 7.95
+  },
+  {
+    "name": "Pretzel Dogs",
+    "description": "Kosher Franks wrapped in a well-seasoned pretzel bun.",
+    "category": "starter",
+    "price": 6.95
+  },
+  {
+    "name": "Seasonal Salad",
+    "description": "Fresh seasonal vegetables picked from our local farm",
+    "category": "salad",
+    "price": 11.95
+  },
+  {
+    "name": "Greek Salad",
+    "description": "Cucumbers, tomatoes, olives, and spinach topped with crumbled feta cheese",
+    "category": "salad",
+    "price": 12.95
+  },
+  {
+    "name": "Cucumber Salad",
+    "description": "Refreshing cucumber slices mixed with spinach and our homemade lemon vinagrette.",
+    "category": "salad",
+    "price": 10.95
+  },
+  {
+    "name": "Fried Chicken Sandwhich",
+    "description": "A generously breaded chicken filet topped with pickles and our homemade sauce.",
+    "category": "main",
+    "price": 15.95
+  },
+  {
+    "name": "Tofu Tacos",
+    "description": "Delicious tacos filled with fried tofu. Served alongside homemade salsa",
+    "category": "main",
+    "price": 14.95
+  },
+  {
+    "name": "10 oz Sirloin",
+    "description": "Generous cut of organic, grass-fed beef served with your choice of mashed potatoes, coleslaw, or vegetables",
+    "category": "main",
+    "price": 18.95
+  },
+  {
+    "name": "Classic Burger",
+    "description": "Our famous 6 oz burger patty topped with cheddar cheese and your favorite toppings",
+    "category": "main",
+    "price": 14.95
+  }
+]
