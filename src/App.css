@@ -4,6 +4,7 @@ nav {
 }
 body {
   margin: 0;
+  background-color: rgb(252, 252, 252);
 }
 /* body {
   padding-top: 50px;
@@ -62,4 +63,48 @@ body {
 .card-body:hover {
   transform: translateY(-10px);
   transition: all 0.3s;
+}
+
+/* Menu */
+.menu {
+  min-height: 300px;
+}
+.menu .menu-item {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+.menu .item-name,
+.menu .item-price {
+  z-index: 3;
+  background-color: white;
+  padding: 0 8px;
+}
+.menu .menu-item::after {
+  position: absolute;
+  left: 20px;
+  z-index: -1;
+  content: " -----------------------" "-----------------------------"
+    "--------------------------------------------";
+  z-index: -1;
+  margin-left: 5px;
+}
+
+.menu button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border: 2px solid purple;
+  border-radius: 50px;
+}
+.menu button:hover {
+  color: white;
+  background-color: purple;
 }
