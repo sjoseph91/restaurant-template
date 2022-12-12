@@ -3,6 +3,7 @@ import Hero from "./assets/components/Hero";
 import About from "./assets/components/About";
 import Why from "./assets/components/Why";
 import Menu from "./assets/components/Menu";
+import Specials from "./assets/components/Specials";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Why />
       <Menu />
+      <Specials />
     </div>
   );
 }

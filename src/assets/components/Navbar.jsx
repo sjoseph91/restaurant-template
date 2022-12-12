@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-transparent  mt-5">
+    <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark  mt-5">
       <div className="container-md">
         <a className="navbar-brand" href="#home">
           Navbar

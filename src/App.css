@@ -78,7 +78,7 @@ body {
 .menu .item-price {
   z-index: 3;
   background-color: white;
-  padding: 0 8px;
+  padding: 0 4px;
 }
 .menu .menu-item::after {
   position: absolute;
@@ -88,6 +88,8 @@ body {
     "--------------------------------------------";
   z-index: -1;
   margin-left: 5px;
+  height: 100%;
+  top: 3px;
 }
 
 .menu button {
@@ -107,4 +109,19 @@ body {
 .menu button:hover {
   color: white;
   background-color: purple;
+}
+/* Specials */
+
+.specials .nav-item {
+  width: 100%;
+  border-radius: 3px;
+  padding: 4px 0px;
+}
+
+.specials .nav-link.active {
+  color: purple;
+  display: block;
+  border-right: 2px solid purple;
+  position: relative;
+  width: calc(100% + 1px);
 }
